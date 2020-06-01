@@ -4,7 +4,17 @@ eureka:
     prefer-ip-address: true
 spring:
   datasource:
-    name: dev
+    name: dev 
     url: jdbc:mysql://127.0.0.1:3306/snailmall
     username: root
     password: root
+zk:
+  host: 106.52.213.64
+redis:
+    host: 106.52.213.64
+    port: 6379
+    max-idle: 5
+    max-total: 10
+    max-wait-millis: 3000
+
+    
